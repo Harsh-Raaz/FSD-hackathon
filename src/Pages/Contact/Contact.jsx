@@ -51,8 +51,7 @@ const Contact = () => {
               {/* Navigation links removed as per request */}
             </ul>
             <div className="auth-buttonsc">
-              <Link to="/login" className="btn btn-login">Login</Link>
-              <Link to="/signup" className="btn btn-signup">Sign Up</Link>
+              
             </div>
           </nav>
         </div>
