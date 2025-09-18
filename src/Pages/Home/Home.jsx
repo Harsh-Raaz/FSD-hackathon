@@ -4,7 +4,7 @@ import './Home.css';
 import card1 from '../../assets/card1.jpg';
 import card2 from '../../assets/card2.jpg';
 import card3 from '../../assets/card3.jpg';
-import card4 from '../../assets/card4.jpg';
+import card5 from '../../assets/card5.jpg';
 
 const Home = () => {
   const [isSticky, setIsSticky] = useState(false);
@@ -144,7 +144,7 @@ const Home = () => {
               </p>
             </div>
             <div className="feature-image">
-              <img src={card4} alt="Customizable invoice templates" />
+              <img src={card5} alt="Customizable invoice templates" />
             </div>
           </div>
         </div>

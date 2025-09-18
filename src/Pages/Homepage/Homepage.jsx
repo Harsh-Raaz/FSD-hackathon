@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import './Homepage.css';
 import { Link } from 'react-router-dom';
+import homepageimg from "../../assets/homepageimg.jpg"
 
 const Homepage1 = ({ navigateTo }) => {
   const [logoHovered1, setLogoHovered1] = useState(false);
@@ -94,7 +95,7 @@ const Homepage1 = ({ navigateTo }) => {
               <h4>Share via WhatsApp</h4>
             </div>
             <div className="main-card1">
-              <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Invoice example" />
+              <img src={homepageimg} alt="Invoice example" />
             </div>
           </div>
         </section>
