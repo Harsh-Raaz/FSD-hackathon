@@ -289,3 +289,8 @@
     font-size: 1.8rem;
   }
 }
+.btn-signup {
+  white-space: nowrap;   /* Prevents text from breaking into 2 lines */
+  text-align: center;    /* Centers the text horizontally */
+  display: inline-block; /* Ensures button behaves properly */
+}
